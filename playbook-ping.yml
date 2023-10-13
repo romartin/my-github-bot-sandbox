@@ -1,0 +1,6 @@
+- name: My ping playbook
+  hosts: mynodes
+  become: false
+  tasks:
+    - name: Ping-nodes
+      ansible.builtin.ping:
