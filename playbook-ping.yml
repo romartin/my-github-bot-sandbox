@@ -1,3 +1,4 @@
+---
 - name: My ping playbook
   hosts: mynodes
   become: false
