@@ -3,4 +3,4 @@
   become: false
   tasks:
     - name: Ping-nodes
-      ansible.builtin.ping:
+      ping:
